@@ -1,0 +1,17 @@
+name: boxletters
+version: git
+summary: Converts text to a list of regional indicator emoji
+description: Converts text to a list of regional indicator emoji. Mostly for annoying friends on Discord
+
+base: core20
+confinement: devmode
+
+
+parts:
+  boxletters:
+    plugin: rust
+    source: .
+
+apps:
+  boxletters:
+    command: bin/boxletters

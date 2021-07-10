@@ -4,6 +4,7 @@
 [![Build](https://github.com/Ewpratten/boxletters/actions/workflows/build.yml/badge.svg)](https://github.com/Ewpratten/boxletters/actions/workflows/build.yml)
 [![Clippy](https://github.com/Ewpratten/boxletters/actions/workflows/clippy.yml/badge.svg)](https://github.com/Ewpratten/boxletters/actions/workflows/clippy.yml)
 [![Audit](https://github.com/Ewpratten/boxletters/actions/workflows/audit.yml/badge.svg)](https://github.com/Ewpratten/boxletters/actions/workflows/audit.yml)
+[![Snapcraft](https://github.com/Ewpratten/boxletters/actions/workflows/snapcraft.yml/badge.svg)](https://github.com/Ewpratten/boxletters/actions/workflows/snapcraft.yml)
 
 
 `boxletters` is a commandline tool for converting strings of text to [`regional_indicator`](https://en.wikipedia.org/wiki/Regional_indicator_symbol) emoji.

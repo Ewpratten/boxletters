@@ -1,0 +1,17 @@
+name: Snapcraft Build
+
+on: push
+
+jobs:
+  my-job:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Install Snapcraft
+        uses: samuelmeuli/action-snapcraft@v1
+
+      - name: Build
+        run: snapcraft build
