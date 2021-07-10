@@ -16,8 +16,7 @@ boxletters hello world
 
 ## Example output
 
-:regional_indicator_h: :regional_indicator_e: :regional_indicator_l: :regional_indicator_l: :regional_indicator_o:
-:regional_indicator_w: :regional_indicator_o: :regional_indicator_r: :regional_indicator_l: :regional_indicator_d:
+![Output](emoji-demo.png)
 
 ## Installation
 
