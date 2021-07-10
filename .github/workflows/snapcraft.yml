@@ -3,7 +3,7 @@ name: Snapcraft Build
 on: push
 
 jobs:
-  my-job:
+  build:
     runs-on: ubuntu-20.04
 
     steps:
@@ -12,6 +12,8 @@ jobs:
 
       - name: Install Snapcraft
         uses: samuelmeuli/action-snapcraft@v1
+        with:
+          use_lxd: true
 
       - name: Build
         run: snapcraft build
